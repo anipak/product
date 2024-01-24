@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Poppins, sans-serif;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  transition: 0.4s;
+}
+
+a {
+  text-decoration: none;
+}
+
+#header {
+  padding: 23px 0;
+  background: #fff;
+  -webkit-box-shadow: 0px 16px 18px 0px rgba(29, 33, 36, 0.2);
+  -moz-box-shadow: 0px 16px 18px 0px rgba(29, 33, 36, 0.2);
+  box-shadow: 0px 16px 18px 0px rgba(29, 33, 36, 0.2);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+} 
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  color: #173a56;
+  font-size: 30px;
+  font-weight: 700;
+}
+.header_left {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+}
+
+.header_right {
+  display: flex;
+  align-items: center;
+}
+
+.header_right a {
+  color: #22343d;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 0 15px;
+}
+
+.header_right button {
+  margin: 0 15px;
+}
+
+.btn1 {
+  color: #173a56;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 15px 25px;
+  background: transparent;
+  border-radius: 4px;
+  border: 1px solid #bcd0e5;
+}
+
+.btn2 {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 4px;
+  background: #02897a;
+  padding: 15px 25px;
+}
+
+.btn3 {
+  color: #02897a;
+  width: 24px;
+  height: 24px;
+  border-radius: 100%;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* work */
+
+#work{
+    padding: 25px 0;
+    background: #FFF;
+}
+
+.work_content h1{
+    color: #22343D;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 60px; 
+    width: 518px;
+    padding-bottom: 18px;
+}
+
+.work_content p{
+    color: #22343D;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    width: 458px;
+    padding-bottom: 60px;
+}
+
+.work{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 95px;
+}
+
+
+.work_content button{
+    margin: 0 10px;
+}
+
+.work_btns{
+    display: flex;
+    align-items: center;
+}
+.work_btn1{
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 4px;
+    background: #02897A;
+    padding: 15px 25px;
+}
+
+
+.work_btn2{
+    color: #02897A;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration-line: underline;
+    background: transparent;
+    display: flex;
+    align-items: center;
+}
+
+.work_btn2 ion-icon{
+    font-size: 25px;
+    
+}
