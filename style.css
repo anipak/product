@@ -213,9 +213,15 @@ header h1 {
   border-radius: 4px;
   background: #02897a;
   padding: 15px 25px;
-  margin: 90px 500px;
+  
 }
 
+
+.button{
+  display: flex;
+  justify-content: center;
+  padding: 20px 0;
+}
 /*management  */
 
 #management {
@@ -683,7 +689,7 @@ header h1 {
   align-items: center;
   border-radius: 32px;
   background: #02897A;
-  width: 968px;
+  width: 85%;
   height: 345px;
   padding: 10px 0;
 }

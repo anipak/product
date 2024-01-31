@@ -1,0 +1,167 @@
+@media (max-width: 1440px) {
+    
+}
+
+@media (max-width:1200px) {
+    .work{
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+}
+
+@media (max-width:1024px) {
+    .collaborative{
+        flex-direction: column-reverse;
+    }
+
+    .management{
+        flex-direction: column-reverse;
+    } 
+
+    .management_content{
+        margin-top: 20px;
+    }
+
+    .customer{
+        flex-direction: column;
+    }
+
+    .customer_text{
+        padding-top: 20px;
+    }
+
+    .price_block{
+        flex-wrap: wrap;
+
+    }
+
+    .price_block_item{
+        margin: 10px 0;
+    }
+
+    .clients_item{
+        flex-wrap: wrap;
+        justify-content: space-around;
+      
+    }
+
+    .clients_item_icon{
+        margin: 10px 0;
+    }
+
+    .join{
+        flex-direction: column;
+        height: 90%!important;
+    }
+}
+
+
+
+@media (max-width:992px) {
+    .header_right a,
+    .header_right button{
+        display: none;
+    }
+
+    .product_content{
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .product_item{
+        padding: 10px 0;
+    }
+
+    .quick_content_list{
+        width: 100%!important;
+    }
+}
+
+@media (max-width:768px) {
+    .clients_item{
+        justify-content: center!important;
+    }
+
+    .footer{
+        flex-wrap: wrap;
+    }
+
+    .footer_list{
+        padding: 10px 0;
+    }
+
+}
+
+@media (max-width:576px) {
+    .work_img{
+        width: 90%;
+    }
+
+    .management_img{
+        width: 90%;
+    }
+
+    .customer_img{
+        width: 90%;
+    }
+
+    .collaborative_img{
+        width: 90%;
+    }
+
+    .join_content h2{
+        width: 90%!important;
+        padding: 0 10px!important;
+    }
+}
+
+
+@media (max-width: 450px) {
+    .quick h6{
+        width: 90%!important;
+    }
+
+    .collaborative_text p {
+        width: 90%!important;
+    }
+
+    .customer_text p{
+        width: 90%!important;
+    }
+
+    .management_content p {
+        width: 90%!important;
+    }
+
+
+    .work_content{
+        width: 100%;
+    }
+    .work_content p{
+        width: 90%!important;
+    }
+
+
+    .work_content h1{
+        width: 90%!important;
+    }
+    .work_btns{
+        justify-content: center;
+    }
+
+    .product_content{
+        justify-content: center!important;
+    }
+}
+
+@media (max-width: 400px) {
+    
+}
+
+@media (max-width: 375px) {
+    
+}
+
+@media (max-width: 320px) {
+    
+}
