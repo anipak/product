@@ -155,7 +155,22 @@
 }
 
 @media (max-width: 400px) {
-    
+    .customer_text{
+        width: 90%;
+    }
+
+   .join img{
+    width: 90%;
+   }
+
+   .quick_content_list div p{
+    width: 90%!important;
+    text-align: center;
+   }
+
+   .list_img{
+    flex-direction: row-reverse;
+   }
 }
 
 @media (max-width: 375px) {
@@ -163,5 +178,14 @@
 }
 
 @media (max-width: 320px) {
-    
+    .join{
+        width: 100%!important;
+    }
+    .footer_list p{
+        width: 90%!important;
+    }
+
+    .footer_input input{
+        width: 90%!important;
+    }
 }

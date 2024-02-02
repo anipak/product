@@ -680,9 +680,13 @@ header h1 {
 #join{
   padding: 70px 0;
   background-color: #fff;
-  margin-left: 100px;
 }
 
+
+.join_main{
+  display: flex;
+  justify-content: center;
+}
 .join{
   display: flex;
   justify-content: space-evenly;
